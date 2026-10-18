@@ -1,0 +1,332 @@
+{
+    "database": "edulms_qa_seed_20261015",
+    "created_at": "2026-10-15T23:27:45+07:00",
+    "tables": {
+        "users": [
+            {
+                "id": 1,
+                "nama_lengkap": "Administrator EduLMS",
+                "email": "admin@edulms.sch.id",
+                "password": "$2y$12$AT.AfOI2x0mPD5amK\/pPU.AdXVuZgv6cx\/3DqlUgwYjaFdl.UcpEC",
+                "role": "admin",
+                "nisn": null,
+                "nip": null,
+                "foto_profil": null,
+                "is_active": 1,
+                "created_at": "2026-10-15 23:27:45",
+                "updated_at": "2026-10-15 23:27:45"
+            },
+            {
+                "id": 2,
+                "nama_lengkap": "Ahmad Dahlan",
+                "email": "ahmad.dahlan@edulms.sch.id",
+                "password": "$2y$12$AT.AfOI2x0mPD5amK\/pPU.AdXVuZgv6cx\/3DqlUgwYjaFdl.UcpEC",
+                "role": "guru",
+                "nisn": null,
+                "nip": "198503152010011001",
+                "foto_profil": null,
+                "is_active": 1,
+                "created_at": "2026-10-15 23:27:45",
+                "updated_at": "2026-10-15 23:27:45"
+            },
+            {
+                "id": 3,
+                "nama_lengkap": "Siti Nurhaliza",
+                "email": "siti.nurhaliza@edulms.sch.id",
+                "password": "$2y$12$AT.AfOI2x0mPD5amK\/pPU.AdXVuZgv6cx\/3DqlUgwYjaFdl.UcpEC",
+                "role": "guru",
+                "nisn": null,
+                "nip": "199001102015032001",
+                "foto_profil": null,
+                "is_active": 1,
+                "created_at": "2026-10-15 23:27:45",
+                "updated_at": "2026-10-15 23:27:45"
+            },
+            {
+                "id": 4,
+                "nama_lengkap": "Hendra Wijaya",
+                "email": "hendra.wijaya@edulms.sch.id",
+                "password": "$2y$12$AT.AfOI2x0mPD5amK\/pPU.AdXVuZgv6cx\/3DqlUgwYjaFdl.UcpEC",
+                "role": "guru",
+                "nisn": null,
+                "nip": "198705202012011002",
+                "foto_profil": null,
+                "is_active": 1,
+                "created_at": "2026-10-15 23:27:45",
+                "updated_at": "2026-10-15 23:27:45"
+            },
+            {
+                "id": 5,
+                "nama_lengkap": "Rina Anggraini",
+                "email": "rina.anggraini@edulms.sch.id",
+                "password": "$2y$12$AT.AfOI2x0mPD5amK\/pPU.AdXVuZgv6cx\/3DqlUgwYjaFdl.UcpEC",
+                "role": "guru",
+                "nisn": null,
+                "nip": "199203152016032001",
+                "foto_profil": null,
+                "is_active": 1,
+                "created_at": "2026-10-15 23:27:45",
+                "updated_at": "2026-10-15 23:27:45"
+            },
+            {
+                "id": 6,
+                "nama_lengkap": "Agus Prabowo",
+                "email": "agus.prabowo@edulms.sch.id",
+                "password": "$2y$12$AT.AfOI2x0mPD5amK\/pPU.AdXVuZgv6cx\/3DqlUgwYjaFdl.UcpEC",
+                "role": "guru",
+                "nisn": null,
+                "nip": "198808102013011001",
+                "foto_profil": null,
+                "is_active": 1,
+                "created_at": "2026-10-15 23:27:45",
+                "updated_at": "2026-10-15 23:27:45"
+            },
+            {
+                "id": 7,
+                "nama_lengkap": "Sulastri",
+                "email": "sulastri@edulms.sch.id",
+                "password": "$2y$12$AT.AfOI2x0mPD5amK\/pPU.AdXVuZgv6cx\/3DqlUgwYjaFdl.UcpEC",
+                "role": "guru",
+                "nisn": null,
+                "nip": "197512052005032001",
+                "foto_profil": null,
+                "is_active": 1,
+                "created_at": "2026-10-15 23:27:45",
+                "updated_at": "2026-10-15 23:27:45"
+            },
+            {
+                "id": 8,
+                "nama_lengkap": "Budi Santoso",
+                "email": "budi.demo@student.edulms.sch.id",
+                "password": "$2y$12$AT.AfOI2x0mPD5amK\/pPU.AdXVuZgv6cx\/3DqlUgwYjaFdl.UcpEC",
+                "role": "siswa",
+                "nisn": "9000000001",
+                "nip": null,
+                "foto_profil": null,
+                "is_active": 1,
+                "created_at": "2026-10-15 23:27:45",
+                "updated_at": "2026-10-15 23:27:45"
+            },
+            {
+                "id": 9,
+                "nama_lengkap": "Aisyah Putri",
+                "email": "aisyah.demo@student.edulms.sch.id",
+                "password": "$2y$12$AT.AfOI2x0mPD5amK\/pPU.AdXVuZgv6cx\/3DqlUgwYjaFdl.UcpEC",
+                "role": "siswa",
+                "nisn": "9000000002",
+                "nip": null,
+                "foto_profil": null,
+                "is_active": 1,
+                "created_at": "2026-10-15 23:27:45",
+                "updated_at": "2026-10-15 23:27:45"
+            }
+        ],
+        "kelas": [
+            {
+                "id": 1,
+                "nama_kelas": "XI MIPA 1",
+                "tingkat": 11,
+                "jurusan": "MIPA",
+                "tahun_ajaran": "2024\/2025",
+                "wali_kelas_id": 2,
+                "kapasitas": 36,
+                "created_at": "2026-10-15 23:27:45",
+                "updated_at": "2026-10-15 23:27:45"
+            },
+            {
+                "id": 2,
+                "nama_kelas": "XI MIPA 2",
+                "tingkat": 11,
+                "jurusan": "MIPA",
+                "tahun_ajaran": "2024\/2025",
+                "wali_kelas_id": 3,
+                "kapasitas": 36,
+                "created_at": "2026-10-15 23:27:45",
+                "updated_at": "2026-10-15 23:27:45"
+            },
+            {
+                "id": 3,
+                "nama_kelas": "XI MIPA 3",
+                "tingkat": 11,
+                "jurusan": "MIPA",
+                "tahun_ajaran": "2024\/2025",
+                "wali_kelas_id": 4,
+                "kapasitas": 36,
+                "created_at": "2026-10-15 23:27:45",
+                "updated_at": "2026-10-15 23:27:45"
+            }
+        ],
+        "siswa_kelas": [
+            {
+                "id": 1,
+                "siswa_id": 8,
+                "kelas_id": 1,
+                "tahun_ajaran": "2024\/2025",
+                "status": "aktif",
+                "created_at": "2026-10-15 23:27:45"
+            },
+            {
+                "id": 2,
+                "siswa_id": 9,
+                "kelas_id": 1,
+                "tahun_ajaran": "2024\/2025",
+                "status": "aktif",
+                "created_at": "2026-10-15 23:27:45"
+            }
+        ],
+        "mata_pelajaran": [
+            {
+                "id": 1,
+                "kode_mapel": "MAT-01",
+                "nama_mapel": "Matematika Wajib",
+                "deskripsi": "Matematika tingkat SMA",
+                "kategori": "wajib",
+                "icon_emoji": "📊",
+                "color_class": "teal",
+                "created_at": "2026-10-15 23:27:45",
+                "updated_at": "2026-10-15 23:27:45"
+            },
+            {
+                "id": 2,
+                "kode_mapel": "IND-01",
+                "nama_mapel": "Bahasa Indonesia",
+                "deskripsi": "Bahasa Indonesia tingkat SMA",
+                "kategori": "wajib",
+                "icon_emoji": "📖",
+                "color_class": "blue",
+                "created_at": "2026-10-15 23:27:45",
+                "updated_at": "2026-10-15 23:27:45"
+            },
+            {
+                "id": 3,
+                "kode_mapel": "FIS-01",
+                "nama_mapel": "Fisika Terapan",
+                "deskripsi": "Fisika untuk MIPA",
+                "kategori": "peminatan",
+                "icon_emoji": "⚗️",
+                "color_class": "indigo",
+                "created_at": "2026-10-15 23:27:45",
+                "updated_at": "2026-10-15 23:27:45"
+            },
+            {
+                "id": 4,
+                "kode_mapel": "TIK-01",
+                "nama_mapel": "Pemrograman Web & TIK",
+                "deskripsi": "Teknologi Informasi dan Komunikasi",
+                "kategori": "peminatan",
+                "icon_emoji": "💻",
+                "color_class": "emerald",
+                "created_at": "2026-10-15 23:27:45",
+                "updated_at": "2026-10-15 23:27:45"
+            },
+            {
+                "id": 5,
+                "kode_mapel": "ING-01",
+                "nama_mapel": "Bahasa Inggris",
+                "deskripsi": "English Language",
+                "kategori": "wajib",
+                "icon_emoji": "🗣️",
+                "color_class": "amber",
+                "created_at": "2026-10-15 23:27:45",
+                "updated_at": "2026-10-15 23:27:45"
+            },
+            {
+                "id": 6,
+                "kode_mapel": "BIO-01",
+                "nama_mapel": "Biologi",
+                "deskripsi": "Biologi untuk MIPA",
+                "kategori": "peminatan",
+                "icon_emoji": "🧬",
+                "color_class": "rose",
+                "created_at": "2026-10-15 23:27:45",
+                "updated_at": "2026-10-15 23:27:45"
+            }
+        ],
+        "guru_mapel": [
+            {
+                "id": 1,
+                "guru_id": 2,
+                "mapel_id": 1,
+                "kelas_id": 1,
+                "tahun_ajaran": "2024\/2025",
+                "hari": "Senin",
+                "jam_mulai": "07:30:00",
+                "jam_selesai": "09:00:00",
+                "ruang": "Ruang XI MIPA 1",
+                "is_active": 1,
+                "created_at": "2026-10-15 23:27:45"
+            },
+            {
+                "id": 2,
+                "guru_id": 3,
+                "mapel_id": 2,
+                "kelas_id": 1,
+                "tahun_ajaran": "2024\/2025",
+                "hari": "Senin",
+                "jam_mulai": "07:30:00",
+                "jam_selesai": "09:00:00",
+                "ruang": "Ruang XI MIPA 1",
+                "is_active": 1,
+                "created_at": "2026-10-15 23:27:45"
+            },
+            {
+                "id": 3,
+                "guru_id": 4,
+                "mapel_id": 3,
+                "kelas_id": 1,
+                "tahun_ajaran": "2024\/2025",
+                "hari": "Senin",
+                "jam_mulai": "07:30:00",
+                "jam_selesai": "09:00:00",
+                "ruang": "Ruang XI MIPA 1",
+                "is_active": 1,
+                "created_at": "2026-10-15 23:27:45"
+            },
+            {
+                "id": 4,
+                "guru_id": 5,
+                "mapel_id": 4,
+                "kelas_id": 1,
+                "tahun_ajaran": "2024\/2025",
+                "hari": "Senin",
+                "jam_mulai": "07:30:00",
+                "jam_selesai": "09:00:00",
+                "ruang": "Ruang XI MIPA 1",
+                "is_active": 1,
+                "created_at": "2026-10-15 23:27:45"
+            },
+            {
+                "id": 5,
+                "guru_id": 6,
+                "mapel_id": 5,
+                "kelas_id": 1,
+                "tahun_ajaran": "2024\/2025",
+                "hari": "Senin",
+                "jam_mulai": "07:30:00",
+                "jam_selesai": "09:00:00",
+                "ruang": "Ruang XI MIPA 1",
+                "is_active": 1,
+                "created_at": "2026-10-15 23:27:45"
+            },
+            {
+                "id": 6,
+                "guru_id": 7,
+                "mapel_id": 6,
+                "kelas_id": 1,
+                "tahun_ajaran": "2024\/2025",
+                "hari": "Senin",
+                "jam_mulai": "07:30:00",
+                "jam_selesai": "09:00:00",
+                "ruang": "Ruang XI MIPA 1",
+                "is_active": 1,
+                "created_at": "2026-10-15 23:27:45"
+            }
+        ],
+        "materi": [],
+        "tugas": [],
+        "pengumpulan_tugas": [],
+        "presensi": [],
+        "pengumuman": [],
+        "statistik_siswa": []
+    }
+}
