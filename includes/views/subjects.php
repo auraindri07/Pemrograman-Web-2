@@ -1,0 +1,9 @@
+<?php $uiTitle='Mata Pelajaran';$uiPage='view-subjects';require __DIR__.'/../ui_head.php'; ?>
+<main class="ui-container student-container">
+ <section class="ui-card subject-heading"><div><div class="inline-heading"><h1>Mata Pelajaran Saya</h1><span class="ui-badge aqua dot">Semester <?= date('n') <=6 ? 'Genap' : 'Ganjil' ?> <?= e(uiYear()) ?></span></div><p>Daftar mata pelajaran aktif semester ini.</p></div><form method="GET" data-search-form class="ui-search"><?= uiIcon('search') ?><input type="search" name="search" value="<?= e($search) ?>" placeholder="Cari mata pelajaran atau pengajar..." aria-label="Cari mata pelajaran atau pengajar"></form></section>
+ <section class="subject-grid">
+ <?php foreach ($mataPelajaran as $mapel): ?><article class="ui-card subject-card"><div class="subject-card-top"><span class="icon-tile aqua"><?= uiIcon(match(uiSubjectIcon($mapel['nama_mapel'])){'code'=>'terminal','book'=>'book-auto',default=>uiSubjectIcon($mapel['nama_mapel'])},24) ?></span><span class="ui-badge blue" title="<?= e($mapel['nama_kelas']) ?>">Kelas <?= e(explode(' ',$mapel['nama_kelas'])[0]) ?></span></div><h2><?= e($mapel['nama_mapel']) ?></h2><p class="teacher-name"><?= uiIcon('user',14) ?> <?= e(trim(explode(',',$mapel['nama_guru'])[0])) ?></p><div class="subject-counts"><span><?= uiIcon('book',16) ?> <?= (int)$mapel['jumlah_materi'] ?> Materi</span><i></i><span><?= uiIcon('clipboard',16) ?> <?= (int)$mapel['jumlah_tugas'] ?> Tugas</span></div><a class="ui-button primary full" href="mapel_detail.php?id=<?= (int)$mapel['guru_mapel_id'] ?>">Buka Pelajaran <?= uiIcon('arrow',16) ?></a></article><?php endforeach; ?>
+ </section>
+ <?php if (!$mataPelajaran) uiEmpty($search ? 'Tidak Ada Hasil' : 'Belum Ada Mata Pelajaran', $search ? 'Coba kata kunci lain atau kosongkan pencarian.' : 'Hubungi administrator untuk penempatan kelas.'); ?>
+</main>
+<?php require __DIR__.'/../ui_end.php'; ?>
