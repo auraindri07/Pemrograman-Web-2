@@ -1,0 +1,157 @@
+/* Follow-up measurements against the original PNGs, 1280 CSS px, scrollbar hidden.
+   Glyph outlines are the official local Google Material Symbols, not approximations. */
+.ui-page .subject-counts { margin-top:26px; }
+.ui-page .announcement-row h2 { margin:2px 0; }
+.ui-page .announcement-row p { margin-top:0; }
+.ui-page .announcement-heading { min-height:88px; }
+.ui-page .announcement-heading h1 { margin-top:6px; }
+.ui-page .ui-badge.white { background:white; box-shadow:0 1px 1px #10223908; }
+.ui-page .grading-heading { min-height:172px; padding:32px; }
+.ui-page .grading-stats { flex-basis:47%; }
+.ui-page .grading-stats>div { padding:16px; gap:16px; }
+.ui-page .grading-stats .icon-tile { border-radius:8px; }
+.ui-page .grading-stats .rose .icon-tile { background:#c51521; }
+.ui-page .grading-stats .blue .icon-tile { background:#006d66; }
+.ui-page .grading-stats .aqua .icon-tile { background:#236b67; }
+.ui-page .grading-copy h2 { letter-spacing:-.7px; }
+.ui-page .grading-task { padding:24px; gap:16px; }
+.ui-page .grading-task .icon-tile { border-radius:12px; }
+.ui-page .grading-task.done>.icon-tile { background:#d6e5ff; color:#526160; }
+.ui-page .grading-progress { width:255px; }
+.ui-page .grading-task.closed { border-left-color:#236b67; }
+.ui-page .grading-task.closed .grading-progress { color:#236b67; }
+.ui-page .grading-task.closed .grading-progress .ui-progress>span { background:#236b67; }
+.ui-page .grading-task.closed.urgent { border-left-color:#c51521; }
+.ui-page .grading-task.closed.urgent .grading-progress { color:#c51521; }
+.ui-page .grading-task.open { border-left-color:#49d6ca; }
+.ui-page .grading-progress strong { font-size:11px; color:var(--ink); font-weight:600; }
+.ui-page .grading-progress>strong { font-size:18px; color:var(--primary); }
+.ui-page .grading-actions .muted-primary { color:white; background:#236b67; }
+.ui-page .grading-actions .ui-text-button { font-size:12px; min-height:32px; justify-content:center; }
+.ui-page .grading-copy .completed-metrics { display:flex; flex-wrap:wrap; align-items:center; gap:16px; color:var(--muted); }
+.ui-page .completed-metrics strong { font-weight:500; color:var(--primary); }
+.ui-page .grading-finished-date { text-align:right; font-size:11px; line-height:1.4; }
+.ui-page .grading-finished-date strong { display:block; font-size:12px; font-weight:500; }
+.ui-page .rubric-panel .section-heading>div { flex:1; }
+.ui-page .rubric-panel .section-heading>.quiet-link { flex:none; }
+.ui-page .rubric-grid b>span { font-size:11px; }
+.ui-page .rubric-grid b>[data-rubric-title] { float:none; font-size:12px; }
+.ui-page .rubric-grid b>[data-rubric-weight] { float:right; }
+.ui-page .grading-copy p.danger { color:#d00008; }
+.ui-page .grading-meta-dot { display:inline-block; margin:0 12px; color:var(--muted); }
+.ui-page .completed-metrics i { font-style:normal; }
+.ui-page .grading-progress .status-dot { width:8px; height:8px; background:currentColor; }
+.ui-page .grading-task.open .grading-progress .status-dot { color:#49d6ca; }
+.ui-page .rubric-tip kbd { border-radius:3px; padding:1px 5px; background:white; font-weight:700; font-family:inherit; }
+.ui-page .ui-date-control { position:relative; gap:8px; }
+.ui-page .ui-date-control input[type=date] { position:absolute; inset:0; width:100%; height:100%; opacity:0; cursor:pointer; }
+.ui-page .ui-date-control:focus-within { outline:2px solid var(--primary); outline-offset:2px; }
+.ui-page .ui-date-control>.ui-icon:first-child { color:var(--primary); }
+.ui-page .attendance-class select { appearance:none; cursor:pointer; }
+.ui-page .arrival-value { font-size:12px; font-weight:500; padding:2px 6px; gap:3px; white-space:nowrap; }
+.ui-page .arrival-value[hidden],.ui-page [data-arrival-empty][hidden] { display:none; }
+.ui-page .attendance-note { display:inline-flex; align-items:center; gap:4px; width:auto; max-width:100%; min-height:0!important; padding:2px 6px; font-size:11px; letter-spacing:.2px; }
+.ui-page .attendance-note:not(.note-blue):not(.note-aqua) { padding-left:0; }
+.ui-page .attendance-table th:nth-child(3) { width:24%; }
+.ui-page .attendance-table th:nth-child(4) { width:14%; }
+.ui-page .attendance-table th:nth-child(5) { width:24%; }
+.ui-page .attendance-table th:nth-child(6) { width:9%; }
+.ui-page .attendance-table th:last-child,.ui-page .attendance-table td:last-child { text-align:right; }
+.ui-page .attendance-edit { margin-left:auto; }
+.ui-page .attendance-page-label { background:var(--blue); padding:3px 8px; border-radius:4px; margin-left:4px; }
+.ui-page .attendance-pagination nav { flex-shrink:0; }
+.ui-page .attendance-stats .stat-card { padding:16px; }
+.ui-page .attendance-table td { height:66px; }
+.ui-page .attendance-status span { padding:2px 10px; }
+.ui-page .monthly-attendance .section-heading { align-items:center; }
+.ui-page .attendance-recap-grid article { padding:24px; }
+.ui-page .recap-metrics { margin:24px 0; }
+.ui-page .recap-top .ui-tag { padding:3px 8px; }
+.ui-student .portal-footer { padding:24px; }
+.ui-student .portal-footer>div { line-height:20px; }
+.ui-page .ui-page-heading p,.ui-page .subject-heading p,.ui-page .welcome-student p { line-height:20px; }
+.ui-page .task-heading .eyebrow { display:flex; line-height:18px; }
+.ui-page .section-heading p { line-height:20px; }
+.ui-page .welcome-student .wave { display:inline-flex; align-items:center; height:24px; line-height:1; vertical-align:middle; }
+.view-student-dashboard .student-container { padding-bottom:62px; }
+.ui-teacher .portal-brand small { margin-left:-4px; }
+.ui-teacher .portal-navigation { gap:6px; }
+.ui-page .teacher-stat>p:first-of-type { max-width:100%; }
+.ui-page .teacher-urgent-label { font-size:10px; margin-left:4px; }
+.ui-page .teacher-next-session { margin-top:auto; display:block; font-size:11px; line-height:1.6; }
+.ui-page .teacher-next-session strong,.ui-page .teacher-next-session small { display:block; font-size:11px; font-weight:500; }
+.ui-page .teacher-next-session .status-dot { width:8px; height:8px; }
+.ui-page .teacher-next-session+.quiet-link { display:none; }
+.ui-page .teaching-session { border-left:6px solid #d5e4ff; }
+.ui-page .teaching-session:first-of-type { border-left-color:var(--primary); }
+.ui-page .teaching-session:nth-of-type(3) { border-left-color:#bdcbc9; }
+.ui-page .pending-grade:nth-of-type(3) { padding:16px 24px; }
+.ui-page .pending-grade:nth-of-type(3) h3 { margin:4px 0 6px; line-height:20px; }
+.ui-page .pending-grade:nth-of-type(3) .pending-footer { margin-top:6px; }
+.ui-page .grading-copy .completed-metrics { line-height:20px; }
+.ui-page .rubric-panel .section-heading h2 { line-height:24px; }
+.ui-page .grading-toolbar { margin-bottom:15px; }
+.ui-page .grading-heading .eyebrow { display:flex; line-height:18px; }
+.ui-page .grading-heading h1 { margin:4px 0; }
+.ui-page .grading-task.done { min-height:120px; }
+.ui-page .rubric-grid b { line-height:16px; }
+.ui-page .rubric-grid p { line-height:16px; }
+.ui-page .attendance-heading { margin-bottom:27px; }
+.ui-page .attendance-stats { margin-bottom:31px; }
+.ui-page .attendance-panel>header .eyebrow { display:flex; line-height:18px; }
+.ui-page .attendance-toolbar { padding-top:15px; padding-bottom:15px; }
+.ui-page .attendance-recap-grid>article>small { display:block; line-height:16px; }
+.ui-page .recap-metrics small { line-height:16px; }
+.view-attendance .ui-container { padding-bottom:24px; }
+.login-page .login-brand { font-size:18px; letter-spacing:-.6px; }
+.login-page .login-greeting { margin-bottom:16px; }
+.login-page .login-role { margin-bottom:28px; }
+.login-page .login-remember { padding-top:0; }
+.login-page .login-alternatives button { font-size:12px; font-weight:500; border:0; min-height:40px; }
+.login-page .role-btn { min-height:32px; }
+@media(min-width:768px) {
+ .login-page>div.grid { min-height:694px; }
+ .login-page>div.grid>div:nth-child(2) { min-height:694px; padding-top:44px; }
+}
+@media(min-width:1050px) {
+ .ui-page .grading-task .grading-progress { width:255px; }
+ .ui-page .grading-task .grading-actions { max-width:240px; }
+ .ui-page .grading-task.open .grading-actions { min-width:220px; }
+ .ui-page .grading-task.closed:not(.urgent) .grading-actions { min-width:188px; }
+ .ui-page .grading-task.done .grading-actions { min-width:144px; }
+ .ui-page .grading-heading h1 { letter-spacing:-1.2px; }
+}
+@media(max-width:1100px) {
+ .ui-page .grading-stats { flex-basis:auto; }
+ .ui-page .grading-heading { padding:24px; }
+}
+@media(max-width:767px) {
+ .ui-page .subject-counts { margin-top:24px; }
+ .ui-page .grading-heading { padding:20px; }
+ .ui-page .grading-stats>div { padding:12px 8px; gap:8px; }
+ .ui-page .grading-task { padding:16px; gap:12px; }
+ .ui-page .grading-progress { width:100%; }
+ .ui-page .grading-actions { width:100%; }
+ .ui-page .grading-finished-date { text-align:left; }
+ .ui-page .grading-copy .completed-metrics { gap:6px 12px; }
+ .ui-page .rubric-panel .section-heading { flex-wrap:wrap; }
+ .ui-page .ui-date-control { font-size:12px; }
+ .ui-page .attendance-pagination { gap:12px; }
+ .ui-page .attendance-page-label { display:inline-block; margin:4px 0 0; }
+}
+
+/* The supplied task reference deliberately narrows successive title columns.
+   Preserve that desktop wrapping, including the narrow fourth title, without hardcoded task text. */
+@media(min-width:1050px) {
+ .view-tasks .task-row:nth-child(1):not(.has-grade) .task-copy h2 { max-width:190px; }
+ .view-tasks .task-row:nth-child(2):not(.has-grade) .task-copy h2 { max-width:150px; }
+ .view-tasks .task-row:nth-child(3):not(.has-grade) .task-copy h2 { max-width:100px; }
+ .view-tasks .task-row:nth-child(4):not(.has-grade) .task-copy h2 { max-width:44px; overflow-wrap:anywhere; }
+ .view-tasks .task-copy h2 { line-height:24px; }
+ .view-tasks .task-meta { line-height:20px; }
+ .view-tasks .task-row:nth-child(2):not(.has-grade),.view-tasks .task-row:nth-child(3):not(.has-grade) { min-height:168px; }
+ .view-tasks .task-row:nth-child(4):not(.has-grade) { min-height:264px; }
+ .view-tasks .task-row.has-grade { min-height:120px; }
+ .view-tasks .task-row { align-items:center; }
+ .view-tasks .task-row>.icon-tile { margin-top:0; }
+}

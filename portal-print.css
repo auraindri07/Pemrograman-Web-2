@@ -1,0 +1,27 @@
+/* Fallback when printing a portal page with the browser's Print command. */
+@media print {
+ @page { size:A4; margin:14mm 12mm; }
+ html,body,body main,.ui-page,.ui-container { background:#fff!important; color:#172d25!important; width:auto!important; min-width:0!important; max-width:none!important; margin:0!important; padding:0!important; overflow:visible!important; }
+ body { font-size:10pt; -webkit-print-color-adjust:exact; print-color-adjust:exact; }
+ .portal-header,.portal-footer,.portal-navigation,.ui-toolbar,.ui-pagination,.attendance-pagination,.attendance-toolbar,.summary-actions,.class-filter,.class-heading-tools,.grading-toolbar,.grading-search,.class-add-card,.report-sync,.ui-feedback,.breadcrumb-row,dialog,button,.ui-button,.portal-button,[data-search-form],.admin-back-link { display:none!important; }
+ .ui-card,.class-card,.subject-card,.admin-page-heading { box-shadow:none!important; border:1px solid #cbd8d0!important; border-radius:4px!important; }
+ .ui-card,.attendance-panel,.submission-list { break-inside:auto; }
+ h1,h2,h3,thead { break-after:avoid; }
+ p,li { orphans:3; widows:3; }
+ .stats-grid,.class-grid,.subjects-grid,.attendance-recap-grid,.grading-bottom { display:grid!important; grid-template-columns:repeat(2,minmax(0,1fr))!important; gap:12px!important; }
+ .stat-card,.class-card,.subject-card,.attendance-recap-grid>article { break-inside:avoid; }
+ .attendance-scroll,.overflow-x-auto { overflow:visible!important; max-height:none!important; }
+ table { width:100%!important; min-width:0!important; table-layout:fixed!important; border-collapse:collapse!important; font-size:9pt!important; }
+ thead { display:table-header-group; }
+ tr { break-inside:avoid; }
+ th,td { padding:6px!important; overflow-wrap:anywhere!important; border-bottom:1px solid #ccd7d1!important; }
+ .attendance-table th:last-child,.attendance-table td:last-child { display:none!important; }
+ [data-attendance-row][hidden] { display:table-row!important; }
+ .attendance-status label:has(input:not(:checked)) { display:none!important; }
+ .attendance-status input { display:none!important; }
+ .attendance-status input:checked+span { background:transparent!important; border:0!important; color:#172d25!important; padding:0!important; }
+ a { color:inherit!important; text-decoration:none!important; }
+ input,select,textarea { color:#172d25!important; box-shadow:none!important; max-width:100%!important; }
+ .attendance-panel>header,.attendance-heading,.class-heading { display:block!important; }
+ .attendance-date,.attendance-class,.attendance-panel>header>.icon-tile { display:none!important; }
+}
